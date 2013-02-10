@@ -1,21 +1,10 @@
-Currently a recent graduate from a Journalism degree, I am... a bit of a long story. Born in Indonesia, but grew up mostly in the land of sand, sun and bountiful oil, Qatar, I set out to experience a completely different world by going to Melbourne for tertiary studies at Monash University.
-        
-I am currently an intern and freelance writer for the following publications:
+I am currently working freelance as a writer in various establishments, with work ranging from journalism, content marketing to public relations. 
 
-* Broadsheet
-* Everguide
-* Neos Kosmos
-* Karamel Magazine
+Most recent works have ranged from writing news articles and media releases, to activating social media campaigns and event promotions.
 
-My work has also been published on:
+Clients include: Cardinal Spin PR, Zilla & Brook, Broadsheet, Schweppes, Everguide and Neos Kosmos. 
 
-* The Vine
-* Melbourne Spring Fashion Week blog
-* iCreate (Indonesian edition)
-* Insider Guides
-* NewsHit
-* Lot’s Wife
+I am open to work in media and communications. 
 
-This blog/website will serve as my portfolio, to be used in my attempt at getting a foot in the journalism/media business. Works featured will vary from the published, unpublished to works in progress.
 
-Feel free to give me a shout out about anything at all on my email: [delimaxw@gmail.com](mailto:delimaxw@gmail.com)
+Say hello and give me a shout out on my email: [delimaxw@gmail.com](mailto:delimaxw@gmail.com)
