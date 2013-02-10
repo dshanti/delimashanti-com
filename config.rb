@@ -83,51 +83,51 @@ ignore "/page_helpers/*"
 
 ready do
 
-  #
-  # Generate /articles/for/*publisher*.html
-  #
+  # #
+  # # Generate /articles/for/*publisher*.html
+  # #
 
-  # grab all articles that are published for someone
-  # and group those up
-  publish_groups = sitemap.resources.group_by do |r|
-    if r.metadata[:page] && r.metadata[:page]["published"] && r.metadata[:page]["published"]["for"]
-      # has page metadata and has published meta data
-      r.metadata[:page]["published"]["for"]
-    end
-  end
+  # # grab all articles that are published for someone
+  # # and group those up
+  # publish_groups = sitemap.resources.group_by do |r|
+  #   if r.metadata[:page] && r.metadata[:page]["published"] && r.metadata[:page]["published"]["for"]
+  #     # has page metadata and has published meta data
+  #     r.metadata[:page]["published"]["for"]
+  #   end
+  # end
 
-  # create pages for each publisher
-  publish_groups.each do |published_for, articles|
+  # # create pages for each publisher
+  # publish_groups.each do |published_for, articles|
     
-    if published_for.nil?
-      # skip blanks
-      next
-    end
+  #   if published_for.nil?
+  #     # skip blanks
+  #     next
+  #   end
 
-    # sanitize names
-    safe_for = parameterize(published_for)
-    page "/articles/for/#{safe_for}.html", :proxy => "/page_helpers/articles_for.html" do
-      # create page
-      @published_for = published_for
-      @articles = articles
-    end
+  #   # sanitize names
+  #   safe_for = parameterize(published_for)
+  #   page "/articles/for/#{safe_for}.html", :proxy => "/page_helpers/articles_for.html" do
+  #     # create page
+  #     @published_for = published_for
+  #     @articles = articles
+  #   end
 
-    # we want to be able to know the full name of a publisher inside other templates
-    # so associate we define our custom metadata generator
-    # and save some bits.
-    sitemap.provides_metadata_for_path("/articles/for/#{safe_for}.html", :publisher_meta) do |url|
-      {
-        page: {
-          "title" => "Articles written for #{published_for}",
-          "published" => {
-            "for" => published_for,
-            "count" => articles.count
-          }
-        }
-      }
-    end
+  #   # we want to be able to know the full name of a publisher inside other templates
+  #   # so associate we define our custom metadata generator
+  #   # and save some bits.
+  #   sitemap.provides_metadata_for_path("/articles/for/#{safe_for}.html", :publisher_meta) do |url|
+  #     {
+  #       page: {
+  #         "title" => "Articles written for #{published_for}",
+  #         "published" => {
+  #           "for" => published_for,
+  #           "count" => articles.count
+  #         }
+  #       }
+  #     }
+  #   end
 
-  end
+  # end
 
   #
   # Generate /articles/index.html
