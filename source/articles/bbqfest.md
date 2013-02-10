@@ -1,6 +1,6 @@
 ---
 title: "Blues, Brews and BBQs at Redheads Gourmet BBQ Festival"
-hero_image:/images/bbqfest/cooking-small.jpg
+hero_image: /images/bbqfest/cooking-small.jpg
 category: Publicity
 published:
   for: Zilla and Brook
@@ -10,7 +10,7 @@ published:
 ---
 #Blues, Brews  & BBQs at Redheads Gourmet BBQ Festival
 
-![image](/images/bbqfest/cooking-small.jpg)
+![](/images/bbqfest/meat.jpg)
 
 The first ever **Redheads Gourmet BBQ Festival** in Melbourne is bringing together local providores, hardware retailers, brewers, wineries and food sellers on 1 – 3 March. Part of the **Melbourne Food and Wine Festival**, this three-day extravaganza will get set the Elwood foreshore alight with a blues music line-up.
 
@@ -31,5 +31,7 @@ Food is the main event at the Gourmet BBQ Festival, but there’s nothing like a
 The cool cats of Melbourne blues include Catfish Voodoo, Smokin’ Sam & Cargo Blue and the dapper gents of John Luke Shelley & High Speed Steel and the Justin Yapp Band. Performances run all day everyday, so make sure you catch Brian Fraser, Stephen Bowtell Band, Liam Gerner and the Lost Dogs, Blue Eyes Cry and Zevon and the Werewolves of Melbourne.
 
 This is deliciously fun event is great for family days out or a blokey weekend trip. With St Kilda Beach just meters away, the festival is also a wonderful excuse to drive down to the beach. Head down to the Redheads Gourmet BBQ Festival on Jacka Boulevard, St Kilda on 1 – 3 March and get well and truly smoked!
+
+![](/images/bbqfest/bbq-logo-banner1.jpg)
 
 [bar-bqfest.com.au](http://www.bar-bbqfest.com.au/)

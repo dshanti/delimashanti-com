@@ -1,6 +1,6 @@
 ---
 title: "Bartender profile: Michael Goodfellow"
-hero_image: /images/bartender-profile/Michael-Goodfellow.jpg
+hero_image: /images/bartender-profile/Michael-Goodfellow1.jpg
 category: Content Marketing
 published:
   for: Schweppes Cocktail Revolution
