@@ -1,0 +1,5 @@
+%div
+  %h1= "Articles for #{@published_for}"
+  %ul
+    - @articles.each do |article|
+      %li= link_to article.metadata[:page]["title"], article.url;

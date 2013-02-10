@@ -1,0 +1,52 @@
+!!!
+/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
+/[if IE 7] <html class="no-js lt-ie9 lt-ie8" lang="en">
+/[if IE 8] <html class="no-js lt-ie9" lang="en">
+/ [if gt IE 8]><!
+%html.no-js{:lang => "en"}
+  / <![endif]
+  %head
+    %meta{:charset => "utf-8"}
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
+
+    - if data.page.title
+      %title= data.page.title + " - Delima Shanti"
+    - else
+      %title Delima Shanti
+
+    - if data.page.description
+      %meta{:content => data.page.description, :name => "description"}
+    - else
+      %meta{:content => "Article by Delima Shanti", :name => "description"}
+
+    %meta{:content => "width=device-width", :name => "viewport"}
+    
+    = stylesheet_link_tag "normalize.css"
+    = stylesheet_link_tag "all.css"
+    %link(href='http://fonts.googleapis.com/css?family=Average|Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css')
+
+  :ruby
+    classes = page_classes.dup
+    if data.page.body_classes
+      classes << " " << data.page.body_classes.dup
+    end
+  %body{class: classes}
+    /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+    %header
+      = # partial "navigation"
+    %div{:role => "main", :class => "main"}
+      = yield
+    %footer
+
+    #js_css_data
+    
+    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
+    :javascript
+      window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.7.1.min.js"><\/script>')
+    = javascript_include_tag "all.js"
+    :javascript
+      window.jQuery || document.write('<\/script>')
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));

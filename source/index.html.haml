@@ -1,0 +1,14 @@
+%ul.articles
+  - sitemap.resources.select {|r| r.metadata && r.metadata[:page] && r.metadata[:page]["title"]}.each do |article|
+    %li
+      = link_to article.url do
+        .meta
+          .title= article.metadata[:page]["title"]
+          .published_for= "written for #{article.metadata[:page]["published"]["for"]}"
+        - if article.metadata[:page]["hero_image"]
+          .hero_image
+            = image_tag article.metadata[:page]["hero_image"]
+        - else
+          .no_hero_image
+            &nbsp;
+        

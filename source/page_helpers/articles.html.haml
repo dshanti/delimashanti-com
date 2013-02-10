@@ -1,0 +1,47 @@
+:ruby
+  # without a controller, i don't feel too bad about putting
+  # a bit of brains in the view. 
+  # I think this is better than sticking it in the page
+  # generator since you have to reload middleman to change that.
+  categories = ["All"] + article_categories
+  publishers = ["Everyone"] + article_publishers
+
+  cat_wrap = categories.map do |c|
+    classes = "current" if c == "All"
+    "<span data-filter='#{parameterize(c)}' class='category #{classes}'>#{c.downcase}</span>"
+  end
+  cat_html = cat_wrap[0..-2].join("<span class='punctuation'>,</span> ") << " <span class='punctuation'>&</span> #{cat_wrap[-1]}"
+
+  pub_wrap = publishers.map do |p|
+    classes = "current" if p == "Everyone"
+    "<span data-filter='#{parameterize(p)}' class='publisher #{classes}'>#{p.downcase}</span>"
+  end
+  pub_html = pub_wrap[0..-2].join("<span class='punctuation'>,</span> ") << " <span class='punctuation'>&</span> #{pub_wrap[-1]}"
+
+%p.articles_filter= "Showing #{cat_html} articles written for #{pub_html}."
+
+%ul.articles
+  - @articles.sort_by{|a|a.data.published.date}.each do |article|
+    - if build? && article.data.draft
+      - next # don't build draft pages
+    %li.article{data: {publisher: parameterize(article.metadata[:page]["published"]["for"]), category: parameterize(article.metadata[:page]["category"])}}
+      = link_to article.url do
+        .meta
+          - if article.data.draft
+            .draft Draft
+          .title= article.metadata[:page]["title"]
+          .published_for= "written for #{article.metadata[:page]["published"]["for"]}"
+        - if article.metadata[:page]["hero_image"]
+          .hero_image
+            = image_tag article.metadata[:page]["hero_image"]
+        - else
+          .no_hero_image &nbsp;
+  %li.no_result
+    .meta
+      .title
+        No articles written about
+        %span.placeholder _category_
+      .published_for
+        for
+        %span.placeholder _for_
+    .no_hero_image &nbsp;

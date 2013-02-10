@@ -1,0 +1,12 @@
+- wrap_layout :layout do
+  .article{class: ("draft" if current_page.data.draft)}
+    %h1.title
+      = data.page.title
+    = yield
+  .article_meta
+    - if data.page.published && data.page.published.for && data.page.published.date && data.page.published.link
+      %p= "Originally published for #{link_to data.page.published.for + " on " + data.page.published.date, data.page.published.link}"
+    - if data.page.published && data.page.published.for && data.page.published.date && !data.page.published.link
+      %p= "Originally published for #{link_to data.page.published.for} on #{data.page.published.date}"
+  .article_stinger
+    = link_to "Read more articles", "/articles/index.html"
