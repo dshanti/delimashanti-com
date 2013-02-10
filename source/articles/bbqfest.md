@@ -1,6 +1,6 @@
 ---
 title: "Blues, Brews and BBQs at Redheads Gourmet BBQ Festival"
-hero_image:/images/bbqfest/cooking-small.jpg
+hero_image: /images/bbqfest/cooking-small.jpg
 category: Publicity
 published:
   for: Zilla and Brook
