@@ -1,6 +1,6 @@
 ---
-title: Bartender Profile: Michael Goodfellow
-hero_image: http://delshanti.files.wordpress.com/2012/05/798751-kimbra.jpg?w=620
+title: "Bartender profile: Michael Goodfellow"
+hero_image: /images/bartender-profile/Michael-Goodfellow.jpg
 category: Content Marketing
 published:
   for: Schweppes Cocktail Revolution
@@ -11,9 +11,7 @@ published:
 
 #Bartender Profile: LongPlay's Michael Goodfellow
 
-
-
-*We have a chat to some bartenders around the country who dedicate their lives to mixing quality cocktails*
+![Photography: Kristoffer Paulsen](/images/bartender-profile/Michael-Goodfellow.jpg)
 
 LongPlay is well known for being a great locals bar. It’s the type of place where you can comfortably wind down or visit over the weekend for some classic cocktails and a bowl of salted nuts. The bartenders here have garnered a great following, so we decided to speak with Michael Goodfellow to ask him what it’s like working at a local favourite.  
   
@@ -49,4 +47,3 @@ A well made Manhattan is really great. In winter, I find that it’s really warm
 
 [longplay.net.au](http://www.longplay.net.au)
 
-Photography: Kristoffer Paulsen
