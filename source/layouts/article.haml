@@ -1,7 +1,5 @@
 - wrap_layout :layout do
   .article{class: ("draft" if current_page.data.draft)}
-    %h1.title
-      = data.page.title
     = yield
   .article_meta
     - if data.page.published && data.page.published.for && data.page.published.date && data.page.published.link
