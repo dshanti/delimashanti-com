@@ -94,7 +94,10 @@ $(document).ready(function(){
   });
 
   var filterArticles = function(publisher, category){
-    console.log("Filtering: ", publisher, category);
+
+    // disable publisher filtering for now
+    publisher = "everyone"; 
+
     // hide all articles
     $("ul.articles").fadeOut('fast', function(){
       $("ul.articles li.no_result").hide();

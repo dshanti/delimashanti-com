@@ -18,7 +18,7 @@
   end
   pub_html = pub_wrap[0..-2].join("<span class='punctuation'>,</span> ") << " <span class='punctuation'>&</span> #{pub_wrap[-1]}"
 
-%p.articles_filter= "Showing #{cat_html} articles written for #{pub_html}."
+%p.articles_filter= "Showing #{cat_html} articles written."
 
 %ul.articles
   - @articles.sort_by{|a|a.data.published.date}.each do |article|
