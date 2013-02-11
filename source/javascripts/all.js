@@ -13,22 +13,22 @@ $(window).load(function(e){
     var caption = $(this).attr('alt');
     $(this).after("<span class='caption'>"+caption+"</span>");
 
-    var baselineHeight = 26; // TODO: this shouldn't be hardcoded...
-    $(this).wrap("<div class='image_cropper'>");
+    
+    // $(this).wrap("<div class='image_cropper'>");
+    // var baselineHeight = 26; // TODO: this shouldn't be hardcoded...
+    // // get height of img
+    // var height = $(this).height();
+    // while(height % baselineHeight != 0){
+    //   // find match on baseline height
+    //   height--;
+    // }
 
-    // get height of img
-    var height = $(this).height();
-    while(height % baselineHeight != 0){
-      // find match on baseline height
-      height--;
-    }
+    // // specifically set height to be correct.
+    // $(this).parents("div.image_cropper").css({"height": height});
+    // // $(this).parents("div.image_cropper").css({"width": $(this).width()});
 
-    // specifically set height to be correct.
-    $(this).parents("div.image_cropper").css({"height": height});
-    // $(this).parents("div.image_cropper").css({"width": $(this).width()});
-
-    // note that an image is in this p
-    $(this).parents("p").addClass("image_container drop-shadow 1curved 1curved-vt-2 1curved-hz-2");
+    // // note that an image is in this p
+    $(this).parents("p").addClass("image_container");
 
   });
 })
