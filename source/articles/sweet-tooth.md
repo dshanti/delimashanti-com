@@ -1,7 +1,7 @@
 ---
 title: Sweet Tooth
 hero_image: /images/sweet-tooth/food3.jpg
-category: Editorial
+category: Content Marketing
 published:
   for: The Publican
   date: 01 February 2013
