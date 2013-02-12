@@ -1,6 +1,6 @@
 ---
 title: "When The Audience Takes Centre Stage"
-hero_image: /images/centre-stage/half-real.jpg
+hero_image: /images/centre-stage/half-real-hero.jpg
 category: News
 published:
   for: Theatre Alive
