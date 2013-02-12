@@ -1,4 +1,3 @@
-= @what
 %ul.articles
   - @articles.each do |article|
     %li
@@ -12,4 +11,5 @@
         - else
           .no_hero_image
             &nbsp;
-        
+.article_stinger
+  = link_to "Read more articles", "/articles/index.html"
