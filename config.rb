@@ -38,19 +38,6 @@ page "/articles/index.html", :layout => :layout
 # proxy about page
 page "/about.html", proxy: "/meta/about.html"
 
-page "/index.html" do 
-  # grab all resources in the /articles/* path
-  @articles = sitemap.resources.select do |r|
-    # ignore index page, ignore filters (articles/for/*publisher)
-    r.path.match(/^articles\/.+?\.html/) && r.path != "articles/index.html" &&
-    !r.path.match(/^articles\/for\/.+?\.html/)
-  end
-
-  @articles = @articles.select {|a|a.data.front_page}
-
-  @articles = @articles.sort_by{|a|Date.parse(a.data.published.date)}.reverse
-end
-
 ###
 # Helpers
 ###
@@ -144,6 +131,21 @@ ready do
 
   # end
 
+
+
+  page "/index.html" do 
+    # grab all resources in the /articles/* path
+    @articles = sitemap.resources.select do |r|
+      # ignore index page, ignore filters (articles/for/*publisher)
+      r.path.match(/^articles\/.+?\.html/) && r.path != "articles/index.html" &&
+      !r.path.match(/^articles\/for\/.+?\.html/)
+    end
+
+    @articles = @articles.select {|a|a.data.front_page}
+
+    @articles = @articles.sort_by{|a|[Date.parse(a.data.published.date, a.data.title)]}.reverse
+  end
+
   #
   # Generate /articles/index.html
   #
@@ -157,7 +159,7 @@ ready do
       !r.path.match(/^articles\/for\/.+?\.html/)
     end
 
-    @articles = @articles.sort_by{|a|Date.parse(a.data.published.date)}.reverse
+    @articles = @articles.sort_by{|a|[Date.parse(a.data.published.date, a.data.title)]}.reverse
     
     @publisher_filters = sitemap.resources.select do |r|
       # ignore index page, ignore filters (articles/for/*publisher)
