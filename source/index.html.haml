@@ -1,5 +1,6 @@
+= @what
 %ul.articles
-  - sitemap.resources.select {|r| r.metadata && r.metadata[:page] && r.metadata[:page]["title"]}.each do |article|
+  - @articles.each do |article|
     %li
       = link_to article.url do
         .meta

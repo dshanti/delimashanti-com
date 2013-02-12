@@ -173,6 +173,10 @@ body {
   // @include grid-background($grid-columns, $grid-width, $grid-gutter-width, $baseline-height-px, 0px);//, $column-color, $gutter-color, $baseline-color, $force-fluid)
 }
 
+b, strong{
+  font-weight: 400;
+}
+
 body, p, h1, h2, h3, h4, h5, h6, ul, li, select{
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", sans-serif;
   color: $base-font-color;
