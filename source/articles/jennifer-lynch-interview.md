@@ -1,7 +1,7 @@
 ---
 title: Interview with Jennifer Lynch
 hero_image: /images/jennifer-lynch/jenlynch.jpeg
-category: Interview
+category: Interviews
 published:
   for: Everguide
   date: 17 July 2012

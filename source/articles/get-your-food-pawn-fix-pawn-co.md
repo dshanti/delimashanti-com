@@ -4,7 +4,7 @@ hero_image: /images/pawn-co/interior-pawn-co1.jpg
 category: Publicity
 published:
   for: "Zilla & Brook"
-  date: 31 February 2013
+  date: 31 January 2013
   link: http://www.zillaandbrook.com.au/
  
 ---

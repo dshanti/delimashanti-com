@@ -2,6 +2,7 @@
 title: "Bartender profile: Michael Goodfellow"
 hero_image: /images/bartender-profile/Michael-Goodfellow1.jpg
 category: Content Marketing
+front_page: true
 published:
   for: Schweppes Cocktail Revolution
   date: 26 January 2013

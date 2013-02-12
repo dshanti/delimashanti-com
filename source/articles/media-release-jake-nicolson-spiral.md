@@ -11,7 +11,7 @@ published:
 
 #Chef Jake Nicolson enhances freshness with Spiral Foods
 
-![Circa Head Chef Jake Nicolson](/images/spiral/jn_spiralfoods.jpg)
+![Circa Head Chef Jake Nicolson #left](/images/spiral/jn_spiralfoods.jpg)
 
 Leading Australian health food company, Spiral Foods, has partnered up with Circa Head Chef Jake Nicolson as he takes inspiration from Asian cuisines to come up with recipes to showcase how Spiral’s products can help enhance the flavours of fresh ingredients.
 
