@@ -1,6 +1,7 @@
 ---
 title: Drinking Japanese
 hero_image: /images/drinking-japanese/sake-hero.jpg
+front_page: yes
 category: Content Marketing
 published:
   for: "Schweppes Cocktail Revolution"

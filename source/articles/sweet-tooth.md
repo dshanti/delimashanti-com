@@ -1,6 +1,7 @@
 ---
 title: Sweet Tooth
 hero_image: /images/sweet-tooth/food3.jpg
+front_page: true
 category: Content Marketing
 published:
   for: The Publican
@@ -13,7 +14,7 @@ published:
 
 *The grand finale of an excellent meal, desserts are just as important as their creative entree or innovative main dish counterparts.*
 
-![Circa Head Chef Jake Nicolson](/images/sweet-tooth/JakeN1.jpg)
+![Circa Head Chef Jake Nicolson #left](/images/sweet-tooth/JakeN1.jpg)
 
 Desserts, no matter how grown up and sophisticated we may be, are still something to get excited about – who really ever wants to skip the final course? With good reason, desserts often provide a great finale to a perfect meal. So we caught up with Circa’s head chef, Jake Nicolson to find out what makes the perfect dish for any old sweet tooth.
 

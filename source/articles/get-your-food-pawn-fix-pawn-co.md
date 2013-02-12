@@ -23,10 +23,9 @@ Crafted by Jasmin Lefers of Sis Made This, the food focuses on sliders and meatb
 
 Lounge among the seedy glamour with a Basic Slider or a Bowl of Balls, which includes a choice of saucy balls on a dinner roll. Choose from Jamaican Chicken and Banana, Beef Bacon Cheeseburger or Pork, Fennel and Apple. 
 
-![](/images/pawn-co/sliders.jpg)
-
 If you like your veggies, pick the Fish and Flaxseed Balls or the Quinoa, Smoked Eggplant and Soy Balls . 
 
+![#left](/images/pawn-co/sliders.jpg)
 
 Need a drink with that? Chase your balls with potent shots specially paired to each meatball. There's really no better way to wash down the Beef Bacon Cheeseburger balls than with a shot of Jack Daniels and apple Messanez. 
 

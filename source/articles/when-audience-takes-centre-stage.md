@@ -1,8 +1,8 @@
 ---
 title: "When The Audience Takes Centre Stage"
 hero_image: /images/centre-stage/half-real-hero.jpg
-front_page: yes
 category: News
+front_page: yes
 published:
   for: Theatre Alive
   date: 21 October 2011

@@ -44,23 +44,24 @@ A self-confessed “garnish queen”, Miss Pearls also stresses, “You’ve got
 **Dunking for Cherries**
 
 Ingredients (for a 1 litre jug)
-• 4 shots dark or spiced rum
-• 1 shot lime juice
-• half and half apple juice and ginger beer
-• several good dashes of Angostura Bitters
-• plenty of mint, lime wedges and cherries to garnish
+
+- 4 shots dark or spiced rum
+- 1 shot lime juice
+- half and half apple juice and ginger beer
+- several good dashes of Angostura Bitters
+- plenty of mint, lime wedges and cherries to garnish
 
 Mix rum and lime juice together in a jug, top with ice, then add all other ingredients and mix well.
 
 **Summer Splendour**
 
-• 2 1/2 shots Martini Rosato (vermouth)
-• 2 1/2 shots strawberry schnapps
-• 2 shots lemon juice
-• sugar syrup to taste
-• apple juice to top up
-• some sparkling wine 
-• strawberry slices and berries to garnish
+- 2 1/2 shots Martini Rosato (vermouth)
+- 2 1/2 shots strawberry schnapps
+- 2 shots lemon juice
+- sugar syrup to taste
+- apple juice to top up
+- some sparkling wine 
+- strawberry slices and berries to garnish
 
 Mix vermouth and strawberry schnapps together with lemon juice. Top up with apple juice and add a touch of sparkling wine to add a bit of fizz. Add sugar syrup to taste and liberally mix strawberry slices and berries throughout.
 

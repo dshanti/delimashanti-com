@@ -9,7 +9,7 @@ published:
  
 ---
 
-![image](/images/milk-bar/milk-bar.jpg)
+![](/images/milk-bar/milk-bar.jpg)
 
 ***The humble milk bar is widely recognised as an Australian suburban institution. But what isn’t known is that these convenience stores on local street corners are at the heart of the Greek diaspora experience in Australia***
 
