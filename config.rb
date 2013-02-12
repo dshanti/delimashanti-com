@@ -82,7 +82,7 @@ helpers do
   def article_categories
     all_articles.map do |a|
       a.metadata[:page]["category"]
-    end.uniq
+    end.uniq.sort
   end
 
   def article_publishers
