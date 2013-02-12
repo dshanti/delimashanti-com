@@ -3,6 +3,8 @@
 ###
 
 require 'grid-coordinates'
+require 'date'
+require 'time'
 
 # Change Compass configuration
 # compass_config do |config|
@@ -134,12 +136,16 @@ ready do
   #
 
   page "/articles/index.html", :proxy => "/page_helpers/articles.html" do
+
     # grab all resources in the /articles/* path
     @articles = sitemap.resources.select do |r|
       # ignore index page, ignore filters (articles/for/*publisher)
       r.path.match(/^articles\/.+?\.html/) && r.path != "articles/index.html" &&
       !r.path.match(/^articles\/for\/.+?\.html/)
     end
+
+    @articles = @articles.sort_by{|a|Date.parse(a.data.published.date)}.reverse
+    
     @publisher_filters = sitemap.resources.select do |r|
       # ignore index page, ignore filters (articles/for/*publisher)
       r.path.match(/^articles\/for\/.+?\.html/)

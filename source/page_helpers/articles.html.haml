@@ -18,10 +18,10 @@
   end
   pub_html = pub_wrap[0..-2].join("<span class='punctuation'>,</span> ") << " <span class='punctuation'>&</span> #{pub_wrap[-1]}"
 
-%p.articles_filter= "Showing #{cat_html} articles."
+%p.articles_filter= "Showing #{cat_html}."
 
 %ul.articles
-  - @articles.sort_by{|a|a.data.published.date}.each do |article|
+  - @articles.each do |article|
     - if build? && article.data.draft
       - next # don't build draft pages
     %li.article{data: {publisher: parameterize(article.metadata[:page]["published"]["for"]), category: parameterize(article.metadata[:page]["category"])}}
