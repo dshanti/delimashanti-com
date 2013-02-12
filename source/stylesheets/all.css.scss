@@ -209,15 +209,7 @@ p{
   margin: $base-line-height 0;
 }
 
-span.caption{
-  font-size: $caption-font-size;
-  line-height: $caption-line-height;
-  padding: $caption-line-height/2 0;
-  display: block;
-  text-align: center;
-  font-style: italic;
-  color: $caption-font-color;
-}
+
 .drop-shadow{
   padding-bottom: 0 !important;
 }
@@ -239,12 +231,40 @@ blockquote{
 p img{
   display: block;
   margin: 0 auto;
-  border: 0.5ex solid rgb(225, 220, 220);
+  border: 1px solid rgb(200, 200, 200);
   width: 100%;
 }
 
-p.image_container{
+// Image stuff
+span.caption{
+  font-size: $caption-font-size;
+  line-height: $caption-line-height;
+  display: block;
+  text-align: center;
+  font-style: italic;
+  color: $caption-font-color;
 }
+
+.image-container{
+
+  &.left, &.right{
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  &.left{
+    float: left;
+    margin-right: 2em;
+  }
+
+  &.right{
+    float: right;
+    margin-left: 2em;
+  }
+
+}
+
+
 
 div.main, div.about, nav{
   @include grid-full;

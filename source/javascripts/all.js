@@ -10,8 +10,8 @@ $(window).load(function(e){
   $("p > img").each(function(index){
 
     // Find our image alt title and wrap it in a caption
-    var caption = $(this).attr('alt');
-    $(this).after("<span class='caption'>"+caption+"</span>");
+    // var caption = $(this).attr('alt');
+    // $(this).after("<span class='caption'>"+caption+"</span>");
 
     
     // $(this).wrap("<div class='image_cropper'>");
@@ -28,7 +28,7 @@ $(window).load(function(e){
     // // $(this).parents("div.image_cropper").css({"width": $(this).width()});
 
     // // note that an image is in this p
-    $(this).parents("p").addClass("image_container");
+    // $(this).parents("p").addClass("image_container");
 
   });
 })

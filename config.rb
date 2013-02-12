@@ -152,6 +152,42 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
+
+#
+# Markdown config
+#
+
+class OMHTML < Redcarpet::Render::HTML
+  def image(link, title, alt_text)
+
+    if alt_text
+      container_classes = $1 if alt_text.match(/#(left|right)$/)
+      alt_text.gsub!(/(#left$|#right$)/, "")
+    end
+
+    # if alt_text.nil? || alt_text.empty?
+
+    # end    
+
+    "<span class='image-container #{container_classes}'>" +
+    "<img src='#{link}' alt='#{alt_text}'/>" +
+    "<span class='caption'>#{alt_text.nil? || alt_text.empty? ? "&nbsp;" : alt_text}</span>" +
+    "</span>"
+
+  end
+
+  # def postprocess(doc)
+  #   # find anything that has <p>[!lorem]</p>
+  #   # replace it with <p class="fixie"></p>
+  #   doc.gsub!("<p>[!lorem]</p>", "<p class='fixie'></p>")        
+  #   doc
+  # end
+end
+
+set :markdown, strikethrough: true, fenced_code_blocks: true, renderer: OMHTML
+set :markdown_engine, :redcarpet
+
+
 # Build-specific configuration
 configure :build do
   
