@@ -1,7 +1,7 @@
 ---
 title: "Interview: Ignite The Dark Dancer Daniel Ryan"
 hero_image: /images/daniel-ryan/pleasure-principle-hero.jpg
-category: Interview
+category: Interviews
 published:
   for: Everguide
   date: 13 July 2012

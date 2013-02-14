@@ -1,7 +1,7 @@
 ---
 title: "Interview: iSelect's Jason Geary on Impro Melbourne"
 hero_image: /images/jason-geary/jason2.jpg
-category: Interview
+category: Interviews
 published:
   for: Everguide
   date: 25 October 2012

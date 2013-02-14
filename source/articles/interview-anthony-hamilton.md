@@ -1,7 +1,7 @@
 ---
 title: "Interview: Choreographer Anthony Hamilton"
 hero_image: /images/anthony-hamilton/anthony1.jpg
-category: Interview
+category: Interviews
 published:
   for: Everguide
   date: 12 January 2013
