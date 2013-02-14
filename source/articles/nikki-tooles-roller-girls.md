@@ -20,7 +20,7 @@ Lucky Day is one of the women Nikki Toole has photographed for her latest projec
 
 Originally from Scotland, the Melbourne-based photographer believes that her roots have influenced her portraiture style. She cites the Scottish tradition of military portraiture, which often shows soldiers in their war gear. She explores the notion that the portrait is not simply about the ‘sitter’, but also about the portrait as a “historical marker of dress, culture and body armour from that era”. Swap the subjects from military men in uniform to roller derby girls and a crew of female warriors in hot shorts, knee guards and skates is born. “It all came together last year when I was doing my project on skaters and I met the roller derby people,” she recalls.
 
-![](/images/roller-girls/roll12.jpg)
+![#left](/images/roller-girls/roll12.jpg)
 
 While the shift in subject is obvious enough, Toole has replicated the formal elements of the military portrait in her own way, shooting in natural daylight without the aid of any artificial lighting.
 
@@ -30,7 +30,7 @@ The roller derby girls’ strength was what attracted the photographer to her su
 
 “They are all very strong girls in their own right and they have a kind of confidence that comes through in the photos,” says Toole. “When they go out on the tracks and battle it out, they have this whole other identity.”
 
-![](/images/roller-girls/roll3.jpg)
+![#right](/images/roller-girls/roll3.jpg)
 
 This is typical of roller derby girls. By day, they can be your favourite barista, the checkout girl or even a teacher. But by night, in the bruising derby arena, their alter egos emerge in the form of characters like Lucky Day, Scarlett O’Hurta and Slam Punk, pushing and shoving their way around the tracks in what is arguably the first female-only contact sport.
 

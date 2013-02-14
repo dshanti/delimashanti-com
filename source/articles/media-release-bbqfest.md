@@ -12,6 +12,8 @@ published:
 
 ![](/images/bbqfest/meat.jpg)
 
+**MEDIA RELEASE**
+
 The first ever **Redheads Gourmet BBQ Festival** in Melbourne is bringing together local providores, hardware retailers, brewers, wineries and food sellers on 1 – 3 March. Part of the **Melbourne Food and Wine Festival**, this three-day extravaganza will get set the Elwood foreshore alight with a blues music line-up.
 
 Pop-up eateries will join the festival with Phat Brats serving their gourmet hotdogs and Senor BBQ showcasing their signature South American touch. The Smokin’ Barrys food truck will dish out melt-in-your-mouth slow cooked dishes, but leave room for other foodie offerings including Tasty Treats, Grill Pro and Say Cheese.

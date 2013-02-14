@@ -26,7 +26,7 @@ For example, when looking over some of Circa's dessert menu highlights, it's imp
 
 Take the native lemon pavlova with hibiscus ripple ice cream – Nicolson explains that it’s always a priority in the Circa kitchen to embrace seasonal local produce. The crowd pleaser however, is revealed in the modern twist, which offers diners a wow factor they have never come across. At Circa, this is evident in their use of contemporary Asian flavours.
 
-![](/images/sweet-tooth/food1.jpg)
+![Image via The Publican](/images/sweet-tooth/food1.jpg)
 
 "Our dessert menu does lean toward the Pacific Rim, we think it's a really fresh take on a French-style, richer dessert. It also corresponds well to our main menu that also takes on some Asian flavours," says Nicolson.
 
@@ -36,7 +36,7 @@ The addition of unexpected twists to old favourites suggests some experimentatio
 
 "For example, if we're doing a rice pudding like the chilled sago with green tea pudding we might want some acidity, maybe some poached stone fruit to help balance the dish."
 
-![](/images/sweet-tooth/food2.jpg)
+![Image via The Publican](/images/sweet-tooth/food2.jpg)
 
 As we run through some different elements which truly bring their dessert list together, Nicolson explains that the whole Circa team are firm believers that a dish is only as good as the raw products that go into making it. With this in mind, the team has adopted a more down to earth approach to their desserts.
 
