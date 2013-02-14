@@ -14,10 +14,10 @@
     - else
       %title Delima Shanti
 
-    - if data.page.description
-      %meta{:content => data.page.description, :name => "description"}
+    - if data.page.title
+      %meta{:content => "#{data.page.title}, #{data.page.category} by Delima Shanti", :name => "description"}
     - else
-      %meta{:content => "Article by Delima Shanti", :name => "description"}
+      %meta{:content => "Delima Shanti, Journalism and Public Relations", :name => "description"}
 
     %meta{:content => "width=device-width", :name => "viewport"}
     
