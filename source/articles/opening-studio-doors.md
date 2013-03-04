@@ -1,7 +1,6 @@
 ---
 title: Opening Studio Doors In Dayslesford
 hero_image: /images/bridget-bodenham/ceramics-hero.jpg
-front_page: true
 category: Editorial
 published:
   for: Broadsheet
