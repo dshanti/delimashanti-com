@@ -143,7 +143,7 @@ ready do
 
     @articles = @articles.select {|a|a.data.front_page}
 
-    @articles = @articles.sort_by{|a|[Date.parse(a.data.published.date, a.data.title)]}.reverse
+    @articles = @articles.sort_by{|a|[Date.parse(a.data.published.date), a.data.title]}.reverse
   end
 
   #
@@ -159,7 +159,7 @@ ready do
       !r.path.match(/^articles\/for\/.+?\.html/)
     end
 
-    @articles = @articles.sort_by{|a|[Date.parse(a.data.published.date, a.data.title)]}.reverse
+    @articles = @articles.sort_by{|a|[Date.parse(a.data.published.date), a.data.title]}.reverse
     
     @publisher_filters = sitemap.resources.select do |r|
       # ignore index page, ignore filters (articles/for/*publisher)
