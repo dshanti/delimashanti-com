@@ -1,7 +1,6 @@
 ---
 title: A Boutique Luxury
 hero_image: /images/boutique-luxury/prince-room2.jpg
-front_page: true
 category: Content Marketing
 published:
   for: The Publican

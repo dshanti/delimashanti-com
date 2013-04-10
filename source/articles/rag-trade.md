@@ -4,7 +4,7 @@ hero_image: /images/rag-trade/anneliese-hero.jpg
 category: Editorial
 published:
   for: Broadsheet
-  date: 17 August 2012
+  date: 17 November 2011
   link: http://www.broadsheet.com.au/melbourne/
  
 ---

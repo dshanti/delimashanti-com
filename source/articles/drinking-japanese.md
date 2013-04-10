@@ -1,7 +1,6 @@
 ---
 title: Drinking Japanese
 hero_image: /images/drinking-japanese/sake-hero.jpg
-front_page: yes
 category: Content Marketing
 published:
   for: "Schweppes Cocktail Revolution"
@@ -16,7 +15,7 @@ published:
 
 ![Andre Bishop. Photography: Peter Tarasiuk](/images/drinking-japanese/andre-bishop.jpg)
 
-ver the past few years, the popularity of sake and the growth contemporary Japanese cuisine has been on the rise in Australian cities, providing us with a refreshing outlook on an often intriguing, innovative and charming culture.
+Over the past few years, the popularity of sake and the growth contemporary Japanese cuisine has been on the rise in Australian cities, providing us with a refreshing outlook on an often intriguing, innovative and charming culture.
 
 So it shouldn’t come as a surprise that Japanese spirits such as shochu (a rice-based spirit), umeshu (plum liqueur) and yuzushu (a citrus liqueur) have crept into the bar scene as both experimental and inventive ingredient options.
 
