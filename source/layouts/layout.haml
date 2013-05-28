@@ -26,6 +26,12 @@
     %link(href='http://fonts.googleapis.com/css?family=Average|Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css')
     = javascript_include_tag "modernizr-2.5.3.js"
     = javascript_include_tag "css3-mediaqueries.js"
+    :javascript
+      window.jQuery || document.write('<\/script>')
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
 
   :ruby
     classes = page_classes.dup
@@ -54,9 +60,3 @@
     :javascript
       window.jQuery || document.write('<script src="/javascripts/jquery-1.7.2.min.js"><\/script>')
     = javascript_include_tag "all.js"
-    :javascript
-      window.jQuery || document.write('<\/script>')
-      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
