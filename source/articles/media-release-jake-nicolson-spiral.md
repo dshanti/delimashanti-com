@@ -1,7 +1,7 @@
 ---
 title: "Jake Nicolson cooks fresh with Spiral Foods"
 hero_image: /images/spiral/spiral-set1.jpg
-front_page: yes
+front_page: 
 category: Publicity
 published:
   for: "Zilla & Brook"
